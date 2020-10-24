@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace StacksAndQueues
+﻿namespace StacksAndQueues
 {
+    using System;
+
     class Program
     {
         static void Main(string[] args)
@@ -23,6 +23,11 @@ namespace StacksAndQueues
             queue.Enqueue(56);
             queue.Enqueue(30);
             queue.Enqueue(70);
+            queue.Dequeue();
+            queue.Display();
+            queue.Dequeue();
+            queue.Dequeue();
+            queue.Display();
         }
     }
 }
